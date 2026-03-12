@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Peer Cloud Systems | Enterprise Networking Hardware</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Inter', sans-serif;
+}
+
+body{
+background:#f4f6f9;
+color:#1f2937;
+}
+
+header{
+background:#0b1f3a;
+color:white;
+padding:18px 8%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:12px;
+font-weight:600;
+font-size:20px;
+}
+
+.logo img{
+height:36px;
+}
+
+nav a{
+margin-left:25px;
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.cta{
+background:#2b7cff;
+padding:10px 18px;
+border-radius:6px;
+}
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("network-hero.jpg");
+background-size:cover;
+background-position:center;
+color:white;
+padding:140px 8%;
+}
+
+.hero h1{
+font-size:48px;
+max-width:600px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+max-width:500px;
+margin-bottom:30px;
+}
+
+.hero button{
+padding:14px 28px;
+background:#2b7cff;
+border:none;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.section{
+padding:90px 8%;
+text-align:center;
+}
+
+.section h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.section p{
+color:#6b7280;
+margin-bottom:50px;
+}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:35px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,.05);
+padding:25px;
+text-align:left;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card img{
+width:100%;
+margin-bottom:20px;
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+color:#6b7280;
+margin-bottom:20px;
+}
+
+.card button{
+background:#2b7cff;
+border:none;
+padding:10px 16px;
+color:white;
+border-radius:6px;
+}
+
+.partners{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.partner-card{
+background:white;
+padding:25px;
+border-radius:8px;
+}
+
+footer{
+background:#0b1f3a;
+color:white;
+padding:60px 8%;
+margin-top:80px;
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:40px;
+}
+
+.footer-grid h4{
+margin-bottom:15px;
+}
+
+.footer-grid a{
+display:block;
+color:#d1d5db;
+text-decoration:none;
+margin-bottom:8px;
+}
+
+.copyright{
+text-align:center;
+margin-top:30px;
+color:#9ca3af;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="logo.png">
+Peer Cloud Systems
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Routers</a>
+<a href="#">Server Racks</a>
+<a href="#">Resellers</a>
+<a href="#">Datasheets</a>
+<a class="cta" href="#">Contact Sales</a>
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<h1>Enterprise Network Infrastructure Solutions</h1>
+
+<p>
+High performance network switches, routers, and server racks
+built for modern data centers and enterprise networks.
+</p>
+
+<button>Request Quote</button>
+
+</section>
+
+
+<section class="section">
+
+<h2>Our Products</h2>
+
+<p>
+Explore networking solutions designed for enterprise performance.
+</p>
+
+<div class="products">
+
+<div class="card">
+<img src="switch.jpg">
+<h3>Network Switches</h3>
+<p>
+High performance Layer 2 and Layer 3 switches designed for
+enterprise networks and data centers.
+</p>
+<button>View Products</button>
+</div>
+
+<div class="card">
+<img src="router.jpg">
+<h3>Enterprise Routers</h3>
+<p>
+Secure and reliable routers built for high speed routing,
+VPN management, and WAN connectivity.
+</p>
+<button>View Products</button>
+</div>
+
+<div class="card">
+<img src="rack.jpg">
+<h3>Server Racks</h3>
+<p>
+Durable racks designed for data center hardware organization
+and efficient cable management.
+</p>
+<button>View Products</button>
+</div>
+
+<div class="card">
+<img src="accessories.jpg">
+<h3>Network Accessories</h3>
+<p>
+Patch panels, rack accessories, cable management,
+and power distribution units.
+</p>
+<button>View Products</button>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="section">
+
+<h2>Our Partners</h2>
+
+<div class="partners">
+
+<div class="partner-card">
+<h3>PCS R500</h3>
+<p>Enterprise router platform</p>
+</div>
+
+<div class="partner-card">
+<h3>PCS R800</h3>
+<p>High throughput routing system</p>
+</div>
+
+<div class="partner-card">
+<h3>PCS R1000</h3>
+<p>Core data center router</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<div class="footer-grid">
+
+<div>
+<h4>Enterprise Networking</h4>
+<a href="#">Routers</a>
+<a href="#">Network Switches</a>
+<a href="#">Server Racks</a>
+</div>
+
+<div>
+<h4>Quick Links</h4>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Routers</a>
+<a href="#">Server Racks</a>
+</div>
+
+<div>
+<h4>Contact Peer Cloud Systems</h4>
+<p>sales@peercloudsystems.uk</p>
+<p>United Kingdom</p>
+</div>
+
+</div>
+
+<div class="copyright">
+Copyright 2026 Peer Cloud Systems
+</div>
+
+</footer>
+
+</body>
+</html>
